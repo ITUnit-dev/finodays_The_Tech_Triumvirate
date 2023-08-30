@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "name": "Amazon",
+      "image": "amazon",
+      "count": 6,
+      "value": 15670
+    },
+    {
+      "id": 2,
+      "name": "Macdonald",
+      "image": "mac",
+      "count": 15,
+      "value": 26907
+    }
+  ]

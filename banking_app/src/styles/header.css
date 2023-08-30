@@ -1,0 +1,121 @@
+.header {
+  background-color: #1d1f24;
+  color: white;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: relative;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-around;
+}
+.header-link:last-child {
+  margin-right: 30px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-right-client {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-link,
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.header-link:hover,
+.menu-link:hover {
+  background-color: rgba(245, 0, 87, 0.2);
+  border-color: #f50057;
+}
+.logout-button {
+  border: none;
+  background-color: #f50057;
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.logout-button:hover {
+  background-color: #c51162;
+}
+.menu-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.menu-button:hover {
+  color: #f50057;
+}
+.menu-links {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #1d1f24;
+  border: 1px solid #f50057;
+  border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  z-index: 1;
+}
+.user-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #f50057;
+  border-radius: 50%;
+}
+.menu-block {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+  .header-links {
+    display: none;
+  }
+  .header-right-client {
+    display: none;
+  }
+  .header-container {
+    width: 90vh;
+  }
+  .stock-item {
+    padding-left: 0;
+  }
+  .menu-button {
+    display: block;
+    background-color: #f50057;
+  }
+  .menu-links.active {
+    display: flex;
+  }
+  .logout-button {
+    padding: 10px 25px;
+  }
+}

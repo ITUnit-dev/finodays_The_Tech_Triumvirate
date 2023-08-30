@@ -1,0 +1,38 @@
+[
+    {
+      "name": "ЦФА1",
+      "prices": [
+        { "date": "01.08", "price": 100 },
+        { "date": "02.08", "price": 120 },
+        { "date": "03.08", "price": 130 },
+        { "date": "04.08", "price": 140 },
+        { "date": "05.08", "price": 160 },
+        { "date": "06.08", "price": 90 }
+      ],
+      "currentPrice": 90
+    },
+    {
+      "name": "ЦФА2",
+      "prices": [
+        { "date": "01.08", "price": 100 },
+        { "date": "02.08", "price": 120 },
+        { "date": "03.08", "price": 130 },
+        { "date": "04.08", "price": 140 },
+        { "date": "05.08", "price": 160 },
+        { "date": "06.08", "price": 220 }
+      ],
+      "currentPrice": 220
+    },
+    {
+      "name": "ЦФА3",
+      "prices": [
+        { "date": "01.08", "price": 100 },
+        { "date": "02.08", "price": 120 },
+        { "date": "03.08", "price": 130 },
+        { "date": "04.08", "price": 140 },
+        { "date": "05.08", "price": 160 },
+        { "date": "06.08", "price": 220 }
+      ],
+      "currentPrice": 220
+    }
+  ]
